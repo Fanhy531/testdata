@@ -12,6 +12,10 @@
 
 **如何添加数据？**
 
-将测试数据添加到`unpublished`branch中，新建pull request，比较master和unpublished，等待merge。
+将测试数据的网址添加到`unpublished`branch：list文件中，新建pull request，比较master和unpublished，等待merge。
+
+**格式要求：**
+- 有批处理文件或其他评测文件，不接受只有输入、输出文件的测试数据。
+- 输入输出文件需要改成`xxx1.in`，`xxx1.out`，`xxx2.in`，`xxx2.out`...的形式。
 
 本人会不定期上线。
